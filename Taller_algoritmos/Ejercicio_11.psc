@@ -9,7 +9,7 @@ Algoritmo Inicio_calificacion_final
 	porcentaje_parciales<-promedio_parciales*0.55
 	Escribir "Digite calificación del examen final"
 	Leer calificacion_examen
-	porcentaje_examen_final<-calificacion_examen*0.30
+	porcentaje_examen_final<-calificacion_examen*0.3
 	Escribir "Digite calificación del trabajo final"
 	Leer calificacion_trabajo
 	porcentaje_trabajo_final<-calificacion_trabajo*0.15
