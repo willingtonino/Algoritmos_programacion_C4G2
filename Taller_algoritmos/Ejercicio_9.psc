@@ -10,5 +10,5 @@ Algoritmo Inicio_sueldo_comision
 	comision<-(venta_1+venta_2+venta_3)*0.10
 	total_ganado<-comision+sueldo
 	Escribir "Dinero obtenido por comisiones :" comision
-	Escribir "El total que resibirá en el mes: " total_ganado
+	Escribir "El total que recibirá en el mes: " total_ganado
 FinAlgoritmo
