@@ -16,7 +16,7 @@ elif(temp>32 and temp<=70):#float
     deporte="Golf"
 elif(temp>10 and temp<=32):#float
     deporte="Esquí"
-elif(temp<=10):#float
+elif(temp<=10 and temp>=0):#float
     deporte="Marcha"
 else:
     deporte="No se encuentra deporte con esta temperatura"

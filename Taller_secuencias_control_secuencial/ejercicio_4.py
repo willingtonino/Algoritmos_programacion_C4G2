@@ -14,6 +14,7 @@ if (monto>5000000):
     pb=(monto*0.33)#float
     pc=(monto*0.12)#float
     pi=pc*0.20#float
+    #salida
     print("La cantidad a invertir en los fondos es de:",ie)
     print("la cantidad a pagar de credito es de:",pc)
     print("los interese del credito:",pi)

@@ -1,8 +1,8 @@
 """
 Entradas
-SalarioBruto-->float-->salario
+Salario bruto-->float-->salario
 Salidas
-SalarioNeto-->float-->sueldo
+Salario nuevo-->float-->sueldo
 """
 #Entrada
 salario=float(input("Digite el salario bruto: "))
@@ -13,4 +13,4 @@ if(salario<900000):
 else:
     sueldo=salario*0.12+salario#float
 #Salida
-print("Su salario neto es de",sueldo)
+print("Su nuevo salario es de:",sueldo)

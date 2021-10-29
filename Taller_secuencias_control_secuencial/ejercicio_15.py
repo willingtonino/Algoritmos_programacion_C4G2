@@ -2,7 +2,7 @@
 Entradas
 Edad-->int-->edad
 nivel de hemoglobina-->float-->nh
-sexo-->str-->sexo
+sexo-->int-->sexo
 Salida
 resultado de anemia-->str-->resultado
 """

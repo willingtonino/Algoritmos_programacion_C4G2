@@ -3,9 +3,9 @@ Entradas
 Departamentos(D1, D2, D3)-->float-->D
 sueldo-->float-->Suel
 Salida
-Sueldo_departamento_1-->float-->SD1
-Sueldo_departamento_2-->float-->SD2
-Sueldo_departamento_3-->float-->SD3
+Sueldo departamento 1-->float-->SD1
+Sueldo departamento 2-->float-->SD2
+Sueldo departamento 3-->float-->SD3
 """
 #Entrada
 Suel=float(input("Digite sueldo: "))
@@ -46,6 +46,7 @@ else:
     SD3=float((Suel*0.2)+Suel)
     SD1=Suel
     SD2=Suel
+#Salidas
 print("Los del depatamento 1 ganaron:",SD1)
 print("Los del depatamento 2 ganaron:",SD2)
 print("Los del depatamento 3 ganaron:",SD3)

@@ -1,5 +1,12 @@
+"""
+Entradas
+Fecha de nacimiento-->int-->fecha
+Salidas
+Edad-->int-->edad
+Signo zodiacal-->str-->signo
+"""
 from datetime import date
-
+#Entrada
 fecha=input("Digite su fecha de nacimiento en el formato dia/mes/año ")
 (dia,mes,año)=fecha.split(" ")
 dia=int(dia)
@@ -9,7 +16,7 @@ año=int(año)
 año_ac=date.today().year
 mes_ac=date.today().month
 dia_ac=date.today().day
-
+#Caja negra
 edad=año_ac-año
 if mes<=mes_ac and dia<=dia_ac:
         edad=edad
@@ -44,4 +51,5 @@ elif dia>=23 and mes==9 or dia<=22 and mes==10:
 else:
     dia>=23 and mes==10 or dia<=22 and mes==11
     signo="escorpión"
-print("Su edad es:",edad,"y su signo zodiacal es",signo)
+#Salida
+print("Su edad es",edad,"y su signo zodiacal es",signo)
