@@ -1,3 +1,7 @@
+"""
+Salida
+Sumatoria de los números pares dentro del rango establecido
+"""
 par=0
 #Caja negra
 for i in range(97,1004):

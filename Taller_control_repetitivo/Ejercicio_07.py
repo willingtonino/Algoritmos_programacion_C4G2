@@ -1,4 +1,12 @@
+"""
+Entradas
+(X,M)-->int-->valores
+Salida
+Nueva experiencia Monster-->int-->E
+"""
+#Caja negra
 while True:
+    #Entrada
     valores=input("")
     (X,M)=valores.split(" ")
     X=int(X)
@@ -8,31 +16,5 @@ while True:
         break
     else:
         E=X*M
+    #Salida
     print(E)
-
-
-
-
-
-
-
-
-"""
-Entradas: 2 valores enteros que indican el multiplicador de xp y el xp que dan los mounstruos
-Multiplicador --> int --> A
-XP --> int --> B
-Salidas: El xp que dará el mounstruo actualmente
-XP_actual --> int --> C
-
-
-# Caja negra
-while True:
-    A = input().split() # Entradas
-    X = int(A[0]) 
-    M = int(A[1]) 
-    if X == 0 and M == 0:
-        break
-    else: 
-        C = M * X
-    print(C) # Salidas
-"""   
