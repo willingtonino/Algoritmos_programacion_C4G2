@@ -1,8 +1,0 @@
-dias=int(input())
-año=int(dias/365)
-diasd=dias-(año*365)
-mes=int(diasd/30)
-diasa=diasd-(mes*30)
-print(año,"ano(s)")
-print(mes,"mes(es)")
-print(diasa,"dia(s)")
