@@ -240,13 +240,13 @@ print("La posición de Mexico es:",contador)
 lista = []
 for i in archivo:
     lista.append(i)
-archivo1=open("paises.txt","w")
+file1=open("paises.txt","w")
 for i in lista:
   if (i=="Madagascar: rey julien\n"):
-    archivo1.write("Madagascar: Antananarivo\n")
+    file1.write("Madagascar: Antananarivo\n")
   else:
-    archivo1.write(i)
-archivo1.close()
+    file1.write(i)
+file1.close()
 """
 
 #Agregue un pais que no este en la lista 
