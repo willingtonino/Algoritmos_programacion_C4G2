@@ -112,7 +112,7 @@ b-->str-->tipo
 def informacion_lista(lista:list)->list:
   aux=[]
   a=len(lista)
-  b=type(lista)
+  b=type(lista[0])
   aux.append(a)
   aux.append(b)
   return aux
